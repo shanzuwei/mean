@@ -14,11 +14,21 @@ router.get('/', (req, res) => {
 router.get('/posts', (req, res) => {
   // Get posts from the mock api
   // This should ideally be replaced with a service that connects to MongoDB
-  axios.get(`${API}/posts`)
+//   axios.get(`${API}/posts`,
+//   {
+//     timeout: 5000,
+//     proxy: {
+//       host: 'http://e83047:angular4$Octo28@cahoproxy.ca.cgugroup',
+//       port: 3128
+//     }
+//   }
+// )
+axios.get(`${API}/posts`)
     .then(posts => {
       res.status(200).json(posts.data);
     })
     .catch(error => {
+      console.log('error: API, ' + error);
       res.status(500).send(error)
     });
 });
