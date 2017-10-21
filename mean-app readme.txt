@@ -1,14 +1,15 @@
-(1) git clone https://github.com/shanzuwei/mean.git .
-    github   hotmail   o---github
+-------------------------------------
+https://scotch.io/tutorials/mean-app-with-angular-2-and-the-angular-cli
 
+
+-------------------------------------
+1)  github   hotmail   o---github
     C:\dev\mean
 
+    git clone https://github.com/shanzuwei/mean.git 
 
 
-
-(2) https://scotch.io/tutorials/mean-app-with-angular-2-and-the-angular-cli
-
-
+(2) 
 
 
 ng new mean-app
@@ -43,4 +44,11 @@ ng build
 
 
 
+
+-------------------------------------
+https://github.com/tsmean/tsmean
+-------------------------------------
+
+c:\dev\mean
+git clone https://github.com/tsmean/tsmean.git
 
