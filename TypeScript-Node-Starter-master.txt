@@ -1,0 +1,25 @@
+how to run:
+
+1) start mongoDb
+
+C:\dev\mongod.bat
+
+
+2) 
+npm start
+
+3)
+
+http://localhost:3000
+
+a)  create login account
+    acc:   test@hotmail.com   
+    pw: test
+
+b)  logout, login
+
+
+c)  package.json -> npm start -> npm serve -> nodemon dist/server.js
+    
+    however  src\server.ts   compile to dist/server.js
+

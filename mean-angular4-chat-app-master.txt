@@ -1,0 +1,33 @@
+https://github.com/didinj/mean-angular4-chat-app
+
+https://www.djamware.com/post/58e0d15280aca75cdc948e4e/building-chat-application-using-mean-stack-angular-4-and-socketio
+
+-------------------
+Step to run:
+-------------------
+
+1) 
+requires mongoDb install, and started in seperate dos window
+
+c:
+cd C:\Program Files\MongoDB\Server\3.4\bin
+mongod  --dbpath  C:\dev\mongodb_data
+
+or c:\dev\mongod.bat
+
+
+2) 
+
+Prepare Node.js and Angular CLI
+Clone this repo
+Run 'npm install'
+Run 'ng build --prod'  ==> correction:  ng build 
+Run 'nodemon' or 'npm start'
+
+
+
+
+3) open chrome:   localhost:3000
+4) open firefox:  localhost:3000
+
+
